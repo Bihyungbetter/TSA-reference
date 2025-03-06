@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu | Time For Thyme</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="page-header">
+        <nav class="navbar scrolled">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>Time For Thyme</h1>
+                </a>
+            </div>
+            <div class="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="sustainability.html">Sustainability</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="reservations.html" class="btn-reservation">Reservations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-banner">
+        <div class="banner-content">
+            <h1>Our Menu</h1>
+            <div class="divider"></div>
+            <p>Seasonal ingredients, thoughtfully prepared</p>
+        </div>
+    </section>
+
+    <section class="menu-section">
+        <div class="container">
+            <div class="menu-navigation">
+                <ul class="menu-nav-list">
+                    <li><a href="#entrees" class="menu-nav-link active">Entrées</a></li>
+                    <li><a href="#sides" class="menu-nav-link">Sides</a></li>
+                    <li><a href="#drinks" class="menu-nav-link">Drinks</a></li>
+                    <li><a href="#desserts" class="menu-nav-link">Desserts</a></li>
+                </ul>
+            </div>
+
+            <div id="entrees" class="menu-category">
+                <div class="section-header">
+                    <h2>Entrées</h2>
+                    <div class="divider"></div>
+                </div>
+                
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1600326145552-317f4cdb733e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Vegetable Pho">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Vegetable Pho</h3>
+                            <p class="description">Housemade noodles soaked in veggie broths and topped with extra leaves and tofu</p>
+                            <p class="price">$16</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1593252725325-b67970a15f16?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Bok Choy Fry">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Bok Choy Fry</h3>
+                            <p class="description">Fresh bok choy fried in coconut oil and served with any choice of sauce</p>
+                            <p class="price">$14</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1583224964978-2e827ef58e70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Fried Rice Kimchi">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Fried Rice Kimchi</h3>
+                            <p class="description">Savoury fermented and salted Korean radish and Napa cabbage served with a bowl of fried rice</p>
+                            <p class="price">$15</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1625944525533-473f1a3d54e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Vegan Pad Thai">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Vegan Pad Thai</h3>
+                            <p class="description">Savoury stir-fried noodles topped with tofu, bean sprouts and green onion</p>
+                            <p class="price">$18</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1553621042-f6e147245754?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1025&q=80" alt="Sushi Platter">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Sushi Platter</h3>
+                            <p class="description">Seaweed wrapping with rice, cucumber, avocado and carrot. Comes in plates of 6, 12, or 20</p>
+                            <p class="price">$22</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1590301157890-4810ed352733?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Bibimbap">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Bibimbap</h3>
+                            <p class="description">Mixed rices served with steamed vegetables, tossed in sweet n spicy gochujang sauce</p>
+                            <p class="price">$17</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1600454252672-d87dc589afdf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Banh Mi">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Banh Mi</h3>
+                            <p class="description">Vietnamese baguette sandwich filled with pickled vegetables, herbs and sriracha mayo</p>
+                            <p class="price">$13</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1071&q=80" alt="Aloo Paratha">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Aloo Paratha</h3>
+                            <p class="description">Flakey and soft Indian bread stuffed with vibrant mashed potato and herbs</p>
+                            <p class="price">$14</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Tom Yum Soup">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Tom Yum Soup</h3>
+                            <p class="description">Hot n sour Thai soup. Served with King Oyster Mushrooms, lemongrass, lime leaves and chilies</p>
+                            <p class="price">$15</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="sides" class="menu-category">
+                <div class="section-header">
+                    <h2>Sides</h2>
+                    <div class="divider"></div>
+                </div>
+                
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1645115666610-edf528bf43cd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Buffalo Cauliflower">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Buffalo Cauliflower</h3>
+                            <p class="description">Cauliflower is steamed and sauteed to a perfect crispiness then tossed in our house buffalo sauce</p>
+                            <p class="price">$10</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1626200903364-cc789943057c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1025&q=80" alt="Paneer 65">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Paneer 65</h3>
+                            <p class="description">Rich, creamy, cheese-like chunks are fried and marinated in yogurt and red aromatic spices</p>
+                            <p class="price">$12</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1623428453859-05162cb6b6d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="House Coleslaw">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>House Coleslaw</h3>
+                            <p class="description">Instead of your ordinary coleslaw, ours uses eastern ingredients such as Napa cabbage, green onions bok choy and mizuna</p>
+                            <p class="price">$8</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1559716229-d8f0c7ccc67d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="Spicy Garlicky Green Beans">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Spicy Garlicky Green Beans</h3>
+                            <p class="description">Green beans tossed in a spicy, aromatic, garlic-based marinade and fried to perfection</p>
+                            <p class="price">$9</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="drinks" class="menu-category">
+                <div class="section-header">
+                    <h2>Drinks</h2>
+                    <div class="divider"></div>
+                </div>
+                
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1552526881-721ce8509abb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Water and Fountain Drinks">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Water / Fountain Drinks / Juices</h3>
+                            <p class="description">Water, fresh juice, and other fountain drinks. Ask your server for the exact drinks we provide</p>
+                            <p class="price">$3 - $6</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1582793988951-9aed5f8f1d24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Tea of the Day">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Tea of the Day</h3>
+                            <p class="description">Ask your server about our special tea for the day, strained directly from our roof-grown plants</p>
+                            <p class="price">$5</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1544159344-34339fce2e34?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Teas">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Teas</h3>
+                            <p class="description">Try our assortment of boba teas, matcha teas and other popular tea variants</p>
+                            <p class="price">$6 - $8</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1621263764928-df1444c5294c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Herb Garden Gin & Tonic">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Herb Garden Gin & Tonic</h3>
+                            <p class="description">Craft gin with house-made tonic water, garden herbs, and citrus</p>
+                            <p class="price">$14</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1594192432793-e41aa09a1e5c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Seasonal Spritz">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Seasonal Spritz</h3>
+                            <p class="description">Prosecco with seasonal fruit purée and fresh herbs</p>
+                            <p class="price">$12</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1560508180-03f285f67ded?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Farmer's Market Mocktail">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Farmer's Market Mocktail</h3>
+                            <p class="description">House-made syrups, fresh-pressed juices, and botanical infusions</p>
+                            <p class="price">$8</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="desserts" class="menu-category">
+                <div class="section-header">
+                    <h2>Desserts</h2>
+                    <div class="divider"></div>
+                </div>
+                
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1607919949721-c0d40365a90f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Gulab Jamun">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Gulab Jamun</h3>
+                            <p class="description">Traditional Indian desert. Fried dough balls served in a warm sugar syrup</p>
+                            <p class="price">$8</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1564988208927-32166c3c813a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Matcha Ice Cream">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Matcha Ice Cream</h3>
+                            <p class="description">Soft and creamy dairy-free ice cream flavoured with matcha</p>
+                            <p class="price">$7</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1637119960729-5fe4fbf3ffbd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Banh Chuoi">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Banh Chuoi</h3>
+                            <p class="description">Vietnamese desert similar to banana bread, made with bananas, coconut milk and rice flour</p>
+                            <p class="price">$9</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1608377205656-a5ead2b7c3e7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Lavender Honey Panna Cotta">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Lavender Honey Panna Cotta</h3>
+                            <p class="description">Silky panna cotta infused with local honey and lavender</p>
+                            <p class="price">$10</p>
+                        </div>
+                    </div>
+
+                    <div class="menu-card">
+                        <div class="menu-card-image">
+                            <img src="https://images.unsplash.com/photo-1519915028121-7d3463d5b1ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80" alt="Seasonal Fruit Crumble">
+                        </div>
+                        <div class="menu-card-content">
+                            <h3>Seasonal Fruit Crumble</h3>
+                            <p class="description">Warm fruit crumble with house-made vanilla bean ice cream</p>
+                            <p class="price">$12</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-footer">
+                <p>*We source our ingredients locally whenever possible. Menu items may vary based on seasonal availability.</p>
+                <p>*Please inform your server of any allergies or dietary restrictions.</p>
+                <a href="menu.pdf" class="btn btn-primary" download>Download PDF Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Time For Thyme</h2>
+                    <p>Farm-to-Table Culinary Experience</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="sustainability.html">Sustainability</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="reservations.html">Reservations</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Hours</h3>
+                        <ul>
+                            <li>Dinner: Tuesday - Sunday</li>
+                            <li>5:00 PM - 10:00 PM</li>
+                            <li>Lunch: Saturday & Sunday</li>
+                            <li>11:30 AM - 2:30 PM</li>
+                            <li>Closed Mondays</li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contact</h3>
+                        <ul>
+                            <li>2400 Colony Rd</li>
+                            <li>Charlotte, NC 28209</li>
+                            <li>(123) 456-7890</li>
+                            <li>info@timeforthyme.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Time For Thyme. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Yelp"><i class="fab fa-yelp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations | Time For Thyme</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="page-header">
+        <nav class="navbar scrolled">
+            <div class="logo">
+                <a href="index.html">
+                    <h1>Time For Thyme</h1>
+                </a>
+            </div>
+            <div class="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="sustainability.html">Sustainability</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="reservations.html" class="active btn-reservation">Reservations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="page-banner">
+        <div class="banner-content">
+            <h1>Make a Reservation</h1>
+            <div class="divider"></div>
+            <p>Secure your table for an unforgettable culinary experience</p>
+        </div>
+    </section>
+
+    <section class="reservation-info-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Dining at Time For Thyme</h2>
+                <div class="divider"></div>
+            </div>
+            <div class="reservation-info-grid">
+                <div class="reservation-info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Standard Dining</h3>
+                    <p>Join us for our seasonal à la carte menu featuring the freshest local ingredients. Reservations are recommended, especially for dinner and weekends.</p>
+                </div>
+                <div class="reservation-info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Chef's Tasting Experience</h3>
+                    <p>Experience our 7-course tasting menu showcasing Chef Emily's most creative dishes. Available Tuesday-Saturday evenings with optional wine pairings. 48-hour advance reservation required.</p>
+                </div>
+                <div class="reservation-info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Private Dining</h3>
+                    <p>Our private dining room accommodates groups of 8-20 guests with customized menus available. Perfect for celebrations, corporate events, and special occasions.</p>
+                </div>
+                <div class="reservation-info-card">
+                    <div class="info-icon">
+                        <i class="fas fa-glass-cheers"></i>
+                    </div>
+                    <h3>Seasonal Events</h3>
+                    <p>Throughout the year, we host special dining events including harvest dinners, holiday celebrations, and collaborative chef dinners. Join our mailing list to stay informed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reservation-form-section">
+        <div class="container">
+            <div class="reservation-content">
+                <div class="reservation-form-container">
+                    <h2>Reserve Your Table</h2>
+                    <div class="divider"></div>
+                    <p class="form-intro">Please fill out the form below to request a reservation. For same-day reservations or parties larger than 8, please call us directly at (123) 456-7890.</p>
+                    <form class="reservation-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="reservation-name">Full Name</label>
+                                <input type="text" id="reservation-name" name="reservation-name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="reservation-email">Email</label>
+                                <input type="email" id="reservation-email" name="reservation-email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="reservation-phone">Phone</label>
+                                <input type="tel" id="reservation-phone" name="reservation-phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="reservation-guests">Number of Guests</label>
+                                <select id="reservation-guests" name="reservation-guests" required>
+                                    <option value="">Select</option>
+                                    <option value="1">1 Person</option>
+                                    <option value="2">2 People</option>
+                                    <option value="3">3 People</option>
+                                    <option value="4">4 People</option>
+                                    <option value="5">5 People</option>
+                                    <option value="6">6 People</option>
+                                    <option value="7">7 People</option>
+                                    <option value="8">8 People</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="reservation-date">Date</label>
+                                <input type="date" id="reservation-date" name="reservation-date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="reservation-time">Time</label>
+                                <select id="reservation-time" name="reservation-time" required>
+                                    <option value="">Select</option>
+                                    <option value="11:30">11:30 AM (Weekends only)</option>
+                                    <option value="12:00">12:00 PM (Weekends only)</option>
+                                    <option value="12:30">12:30 PM (Weekends only)</option>
+                                    <option value="13:00">1:00 PM (Weekends only)</option>
+                                    <option value="13:30">1:30 PM (Weekends only)</option>
+                                    <option value="17:00">5:00 PM</option>
+                                    <option value="17:30">5:30 PM</option>
+                                    <option value="18:00">6:00 PM</option>
+                                    <option value="18:30">6:30 PM</option>
+                                    <option value="19:00">7:00 PM</option>
+                                    <option value="19:30">7:30 PM</option>
+                                    <option value="20:00">8:00 PM</option>
+                                    <option value="20:30">8:30 PM</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="reservation-dining">Dining Experience</label>
+                                <select id="reservation-dining" name="reservation-dining" required>
+                                    <option value="">Select</option>
+                                    <option value="standard">Standard Dining</option>
+                                    <option value="tasting">Chef's Tasting Menu</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="reservation-occasion">Special Occasion</label>
+                                <select id="reservation-occasion" name="reservation-occasion">
+                                    <option value="">Select (optional)</option>
+                                    <option value="birthday">Birthday</option>
+                                    <option value="anniversary">Anniversary</option>
+                                    <option value="engagement">Engagement</option>
+                                    <option value="business">Business Dinner</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group full-width">
+                            <label for="reservation-requests">Special Requests</label>
+                            <textarea id="reservation-requests" name="reservation-requests" rows="3" placeholder="Please note any dietary restrictions, allergies, or special requests."></textarea>
+                        </div>
+                        <div class="form-policy">
+                            <p>Our reservation policy: We hold reservations for 15 minutes past the reserved time. For parties of 6 or more, a credit card is required to secure your reservation. Cancellations within 24 hours of your reservation may incur a fee.</p>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Request Reservation</button>
+                    </form>
+                </div>
+                
+                <div class="reservation-details">
+                    <div class="hours-card">
+                        <h3>Hours of Operation</h3>
+                        <div class="divider"></div>
+                        <div class="hours-list">
+                            <div class="hours-item">
+                                <span class="day">Monday</span>
+                                <span class="time">Closed</span>
+                            </div>
+                            <div class="hours-item">
+                                <span class="day">Tuesday - Friday</span>
+                                <span class="time">5:00 PM - 10:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span class="day">Saturday</span>
+                                <span class="time">11:30 AM - 2:30 PM, 5:00 PM - 10:00 PM</span>
+                            </div>
+                            <div class="hours-item">
+                                <span class="day">Sunday</span>
+                                <span class="time">11:30 AM - 2:30 PM, 5:00 PM - 9:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <h3>Reservation Assistance</h3>
+                        <div class="divider"></div>
+                        <p>For parties larger than 8, same-day reservations, or any questions about dining with us:</p>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>(123) 456-7890</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>reservations@timeforthyme.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="private-events-section">
+        <div class="container">
+            <div class="section-header center">
+                <h2>Private Events & Celebrations</h2>
+                <div class="divider center"></div>
+                <p>Create memorable experiences in our beautiful private dining spaces</p>
+            </div>
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-img">
+                        <img src="images/private-dining.jpg" alt="Elegant private dining room setup" class="img-responsive">
+                    </div>
+                    <div class="event-details">
+                        <h3>Private Dining Room</h3>
+                        <p>Our intimate private dining room accommodates up to 20 guests with elegant decor and a dedicated service team. Perfect for corporate dinners, milestone celebrations, and family gatherings.</p>
+                        <ul class="event-features">
+                            <li><i class="fas fa-check"></i> Customizable multi-course menus</li>
+                            <li><i class="fas fa-check"></i> Wine pairing options</li>
+                            <li><i class="fas fa-check"></i> Audio-visual equipment available</li>
+                            <li><i class="fas fa-check"></i> Private wait staff</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-img">
+                        <img src="images/garden-terrace.jpg" alt="Garden terrace with string lights" class="img-responsive">
+                    </div>
+                    <div class="event-details">
+                        <h3>Garden Terrace</h3>
+                        <p>Our seasonal outdoor garden terrace provides a picturesque setting for up to 40 guests. Available from May through October, weather permitting, it's ideal for cocktail receptions, summer celebrations, and garden parties.</p>
+                        <ul class="event-features">
+                            <li><i class="fas fa-check"></i> Standing reception or seated dining</li>
+                            <li><i class="fas fa-check"></i> Flexible layout options</li>
+                            <li><i class="fas fa-check"></i> Ambient string lighting</li>
+                            <li><i class="fas fa-check"></i> Covered canopy available</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="event-card">
+                    <div class="event-img">
+                        <img src="images/full-restaurant.jpg" alt="Full restaurant buyout setup" class="img-responsive">
+                    </div>
+                    <div class="event-details">
+                        <h3>Full Restaurant Buyout</h3>
+                        <p>For the ultimate private event, reserve our entire restaurant for up to 120 guests. Full restaurant buyouts include customized menus, personalized service, and exclusive use of all facilities.</p>
+                        <ul class="event-features">
+                            <li><i class="fas fa-check"></i> Complete menu customization</li>
+                            <li><i class="fas fa-check"></i> Personalized service and timing</li>
+                            <li><i class="fas fa-check"></i> Custom decor options</li>
+                            <li><i class="fas fa-check"></i> Tailored bar and beverage program</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="events-cta">
+                <h3>Plan Your Special Event</h3>
+                <p>Our events team will work with you to create a personalized experience that exceeds your expectations.</p>
+                <a href="mailto:events@timeforthyme.com" class="btn btn-secondary">Contact Event Coordinator</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header center">
+                <h2>What Our Guests Say</h2>
+                <div class="divider center"></div>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"We celebrated our anniversary at Time For Thyme and couldn't have been more impressed. The staff went above and beyond to make our night special, and the tasting menu was exceptional."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <p><strong>Sarah & James</strong></p>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"We hosted our company dinner in the private dining room and received rave reviews from our entire team. The personalized menu and attentive service made planning effortless."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <p><strong>Michael R., Marketing Director</strong></p>
+                    </div>
+                </div>
+                <div class="testimonial-item">
+                    <div class="testimonial-content">
+                        <p>"The garden terrace was the perfect setting for our daughter's graduation celebration. The seasonal menu highlighted the best of summer, and the space felt intimate yet spacious."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <p><strong>The Thompson Family</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>Time For Thyme</h2>
+                    <p>Farm-to-Table Culinary Experience</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="sustainability.html">Sustainability</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="reservations.html">Reservations</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Hours</h3>
+                        <ul>
+                            <li>Dinner: Tuesday - Sunday</li>
+                            <li>5:00 PM - 10:00 PM</li>
+                            <li>Lunch: Saturday & Sunday</li>
+                            <li>11:30 AM - 2:30 PM</li>
+                            <li>Closed Mondays</li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Contact</h3>
+                        <ul>
+                            <li>2400 Colony Rd</li>
+                            <li>Charlotte, NC 28209</li>
+                            <li>(123) 456-7890</li>
+                            <li>info@timeforthyme.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Time For Thyme. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Yelp"><i class="fab fa-yelp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
